@@ -1,0 +1,504 @@
+@font-face {
+    font-family: Lemon-Bold;
+    src: url(LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: Lemon-Regular;
+    src: url(LEMONMILK-Light.otf);
+}
+#barra-inicial{
+    padding: 0.15rem;
+    background-color: #dc251d;
+}
+#barra-inicial-2{
+    padding: 0.3rem;
+    background-color: white;
+}
+header, .navbar {
+    background-color: #0055aa;
+
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    margin-top: -1.2rem;
+    margin-left: 14rem;
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: -0.8rem;
+    margin-bottom: -5rem;
+    color: #FFF;
+}
+#botao-ini{
+    background-color: #FFF;
+    margin-right: 0.5rem;
+    color: #0055aa;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    font-size: 12px;
+}
+#navbar-links .navbar-nav{
+    font-family: Lemon-Bold;
+    
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-weight: bolder;
+    margin-left: -7rem;
+    margin-top: -2.1rem;
+   
+}
+
+#navbar-links a:hover{
+    background-color: #dc251d;
+    color: white;
+    transition: .2s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem;
+}
+#box-1{
+    background-color: #03ade8;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+#texto-princ{
+    color: white;
+    padding-bottom: 2rem;
+}
+.main-btn{
+    font-size: 16px;
+    color: #0055aa;
+    font-weight: bolder;
+    font-family: Lemon-Bold;
+    text-decoration: none;
+    background-color: #FFF;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+#btn-vend :hover{
+    color: #dc251d;
+}
+#img-prin-mor{
+    
+    border-radius: 70px;
+    border: 10px solid white;
+}
+#img-prin-mor-s{
+    box-shadow: 0px 5px 15px 0px black;
+}
+#titulo-1{
+    font-family: Lemon-Bold;
+    background-color: #dc251d;
+    font-size: 16px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#btn-vend{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+#box-2{
+    background-color:  #0055aa;
+    padding-bottom: 3rem;
+}
+#slider-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: -5rem;
+}
+#slider-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+#carousel-control-prev{
+    width: 1rem;
+    height: 8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #dc251d;
+}
+#carousel-control-next{
+    width: 1rem;
+    height: 8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #dc251d;
+}
+
+.carousel-indicators{
+    margin-bottom: -3rem;
+}
+#indicadores-1{
+    margin-bottom: 1rem;
+}
+#indicadores-1 button{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators button{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    background-color: #dc251d;
+}
+#alinhar{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+#dias{
+    font-family: Lemon-Regular;
+    font-weight: lighter;
+    margin-top: 4rem;
+    margin-right: -46rem;
+    font-size: 11px;
+    color: #FFF;
+    text-align: end;
+}
+#local{
+    font-family: Lemon-Bold;
+    font-weight: bolder;
+    margin-right: -46rem;
+    margin-top: -0.3rem;
+    font-size: 13px;
+    color: #FFF;
+    text-align: end;
+    margin-bottom: 1rem;
+}
+nav{
+    margin-bottom: -2rem;
+}
+#texto-1{
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Lemon-Regular;
+}
+#slider-2{
+    border: 1px solid rgba(128, 128, 128, 0.547);
+}
+#box-3{
+    background-color: #FFF;
+    padding: 5rem;
+    padding-top: 0rem;
+    margin-bottom: 5rem;
+}
+#func{
+    width: 200px;
+    margin-top: 1.5rem;
+}
+#vendedores{
+    text-align: center;
+    font-family: Lemon-Bold;
+    color: #0055aa;
+}   
+#linha-1{
+    margin-top: 6rem;
+    margin-left: 39.5rem;
+    margin-right: 39.5rem;
+    padding-top: 0.4rem;
+    background-color: #dc251d;
+    margin-bottom: 1.5rem;
+}
+#linha-2{
+    margin-left: 39.5rem;
+    margin-right: 39.5rem;
+    padding-top: 0.4rem;
+    background-color: #dc251d;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+#nome-func{
+    font-size: 20px;
+    margin-top: 1rem;
+    color: #0055aa;
+    font-family: Lemon-Bold;
+}
+#tel-func{
+    font-size: 20px;
+    margin-top: -0.5rem;
+    color: #0055aa;
+    font-family: Lemon-Regular;
+}
+#slider-func{
+    margin-bottom: 4rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+#loja{
+    color: #FFF;
+    font-family: Lemon-Bold;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+#loja{
+    margin-left: 30rem;
+    margin-right: 30rem;
+    background-color: #0055aa;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#mapa{
+    
+    padding-bottom: 40%;
+    position: relative;
+}
+#mapa > iframe {
+    border-radius: 10px;
+    position: absolute;
+    left: 2%;
+    width: 95%;
+    height: 150%;
+}
+#mapas{
+    margin-top: -40rem;
+}
+#tit-texto-mapa{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 16px;
+    font-family: Lemon-Bold;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    background-color: #dc251d;
+    color: #FFF;
+}
+#texto-mapa{
+    font-size: 40px;
+    font-family: Lemon-Bold;
+    color: #FFF;
+    margin-bottom: 1.5rem;
+}
+#alinha-mapa{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+#end-loja{
+    margin-top: 5rem;
+    font-size: 16px;
+    color: #FFF;
+    font-family: Lemon-Regular;
+}
+#end-loja-cep{
+    margin-top: -0.2rem;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lemon-Regular;
+}
+#mensagem{
+    text-align: center;
+}
+#mensagem-1{
+    width: 600px;
+}
+#end-loja-tel-1{
+    
+    margin-top: 0.3rem;
+    padding-top: 0.2rem;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #03315f;
+    font-family: Lemon-Bold;
+    margin-left: 5rem;
+    margin-right: 5rem
+}
+#end-loja-tel-2{
+    margin-top: -0.5rem;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #03315f;
+    font-family: Lemon-Bold;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 0.2rem;
+}
+#box-4{
+    background-color: #FFF;
+    padding: 3rem;
+    padding-bottom: 6rem;
+}
+
+#video-p-1{
+    margin-top: 6rem;
+    text-align: center;
+    font-family: Lemon-Bold;
+    color: #0055aa;
+}   
+#video-p-2{
+    margin-top: -0.8rem;
+    text-align: center;
+    font-family: Lemon-Bold;
+    color: #0055aa;
+}   
+#video{
+    margin-top: 3rem;
+    padding-bottom: 35%;
+    position: relative;
+}
+#video > iframe {
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width:79%;
+    height: 100%;
+}
+#alinhar-v-p{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#divisoria{
+    padding-bottom: 1rem;
+    background-color: rgb(236, 232, 232);
+}
+#produtos{
+    width: 280px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#titulo-tipo-produtos{
+    margin-left: 0.3rem;
+    font-size: 14px;
+    font-family: Lemon-Bold;
+    color: #FFF;
+}
+#tipo-produtos{
+    margin-bottom: -0.2rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+   
+    border-bottom-right-radius: 20px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    background-color: #dc251d;
+}
+#alinhar-produtos{
+    margin-top: 6rem;
+}
+#alinhar-produtos-2{
+    margin-top: 2rem;
+}
+#alinhar-produtos-3{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+#texto-foot{
+    color: #fff;
+    font-size: 20px;
+}
+#texto-foot:hover{
+    color: #84140e;
+    
+    font-size: 20px;
+}
+
+footer{
+   padding-top: 4rem;
+   padding-bottom: 3rem;
+    color: #FFF;
+    background-color: #dc251d;
+}
+#especial{
+    text-align: end;
+}
+#alinhar-footer{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+#linha-footer{
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+    background-color: #8e150f;
+    width: 45px;
+    height: 5px;
+}
+#titulo-foot{
+    font-size: 30px;
+}
+#box-redes{
+    margin-left: 10rem;
+    border-radius: 40px;
+    background-color: #0055aa;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+#titulo-foot-text{
+
+font-size: 20px;
+}
+#icone-red{
+    text-align: center;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 1rem;
+}
+#alinha-redes{
+    margin-top: -0.6rem;
+    margin-bottom: -0.6rem;
+    margin-right: -3rem;
+}
+#icone-red-img{
+    margin-top: -1rem;
+    margin-left: -1rem;
+    width: 50px;
+}
+#div-fim{
+    background-color: #0055aa;
+    padding-bottom: 0.8rem;
+}
+#an-func{
+    position: relative;
+}
+#an-func :after{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    box-shadow: 0px 5px 15px 0px gray;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#an-func :hover{
+    transform: scale(1.25,1.25);
+}
+#an-func :hover ::after{
+    opacity: 1;
+}
+#fim{
+    font-weight: lighter;
+    padding-top: 0.7rem;
+    padding-bottom: 0.08rem;
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #84140e;
+}
